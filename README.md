@@ -24,4 +24,15 @@ A. Windows
     2. If you dont have any DICOM viewer and GDCM installed on your pc, you need to install them first.
        You can do it just by double clicking 'installer.bat' file. 
     3. Then you can run the software by double clicking the 'software.jar' file.
+    
+ B. Linux
+ 
+    1. Download the '' file.
+    2. Run the following commands to install GDCM. 
+      - sudo apt-get update
+      - sudo apt-get install python-gdcm
+      - sudo apt install libgdcm-tools
+    3. Give executive permission to the file "software.jar".
+      - chmod +x software.jar
+    Then you can run the software by double clicking the "software.jar" file.
 
