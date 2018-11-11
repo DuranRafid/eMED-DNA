@@ -38,10 +38,15 @@ A. Windows
     
 C. MAC
 
-    1. You need to have Markup : [Named Link](http://www.google.fr/) installed on your mac. 
+    1. You need to have BREW installed on your mac. 
     2. The run the following command. 
        - brew update
        - brew install python-gdcm
        - brew install libgdcm-tools
     3. Then you can run the software by double clicking the 'software.jar' file.
 
+
+## Chromosome file:
+You can download Chromosome files from following link:
+
+https://drive.google.com/open?id=1wSoMo0tgrqCKAH21L2vvTv72PTE9SmyV
