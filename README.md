@@ -36,7 +36,7 @@ A. Windows
       - chmod +x software.jar
     Then you can run the software by double clicking the 'software.jar' file.
     
-C. MAC
+C. Mac
 
     1. You need to have BREW installed on your mac. 
     2. The run the following command. 
