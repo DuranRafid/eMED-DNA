@@ -32,9 +32,9 @@ A. Windows
       - sudo apt-get update
       - sudo apt-get install python-gdcm
       - sudo apt install libgdcm-tools
-    3. Give executive permission to the file "software.jar".
+    3. Give executive permission to the file 'software.jar.'
       - chmod +x software.jar
-    Then you can run the software by double clicking the "software.jar" file.
+    Then you can run the software by double clicking the 'software.jar' file.
     
 C. MAC
 
