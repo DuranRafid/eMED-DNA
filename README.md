@@ -49,4 +49,4 @@ C. MAC
 ## Chromosome file:
 You can download Chromosome files from following link:
 
-https://drive.google.com/open?id=1wSoMo0tgrqCKAH21L2vvTv72PTE9SmyV
+[Drive link] (https://drive.google.com/open?id=1wSoMo0tgrqCKAH21L2vvTv72PTE9SmyV)
