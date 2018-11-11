@@ -46,5 +46,5 @@ C. MAC
     3. Then you can run the software by double clicking the 'software.jar' file.
 
 
-## Chromosome file:
+## Chromosome Set
 You can download Chromosome files from following link: [Drive link](https://drive.google.com/open?id=1wSoMo0tgrqCKAH21L2vvTv72PTE9SmyV)
