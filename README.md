@@ -38,7 +38,7 @@ A. Windows
     
 C. MAC
 
-    1. You need to have [brew](https://brew.sh/) installed on your mac. 
+    1. You need to have Markup : [Named Link](http://www.google.fr/) installed on your mac. 
     2. The run the following command. 
        - brew update
        - brew install python-gdcm
