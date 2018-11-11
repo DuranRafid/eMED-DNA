@@ -35,4 +35,13 @@ A. Windows
     3. Give executive permission to the file "software.jar".
       - chmod +x software.jar
     Then you can run the software by double clicking the "software.jar" file.
+    
+C. MAC
+
+    1. You need to have [brew](https://brew.sh/) installed on your mac. 
+    2. The run the following command. 
+       - brew update
+       - brew install python-gdcm
+       - brew install libgdcm-tools
+    3. Then you can run the software by double clicking the 'software.jar' file.
 
