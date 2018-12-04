@@ -1,0 +1,169 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    
+    <style>
+      blockquote{
+        background-color: pink;
+        padding: 2px;
+      }
+    </style>
+
+    <title>eMed-DNA Software Tutorial</title>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-wrapper cyan lighten-1">
+            <a href="#" class="brand-logo center">eMed-DNA Software Tutorial</a>            
+        </div>
+    </nav>
+    
+    <div class="row">
+        <div class="col offset-s1 s9" id="bodybox">          
+
+          <div id="input_files" class="section scrollspy">
+              <div class="section">
+                <blockquote><h5>Input Files Description</h5></blockquote>
+                <p>The user will need to provide this three files as input.</p>
+                <img class="responsive-img" src="gifs/input_files.gif">
+                <p>The Homo_sapiens genome folder contains DNA sequence of 24 chromosomes of human body in FASTA format. 'X' and 'Y' chromosomes are marked as 23rd and 24th chromosome respectively. The lengths of all chromosomes are in chrome_length.txt file. Chromosome number, start and end positions of genes in genome sequence are in gene_list.txt file.</p>
+              </div>
+            </div>
+            <div class="divider"></div>
+
+          <div id="new_patient_entry" class="section scrollspy">
+              <div class="section">
+                <blockquote><h5>Entering new patient details</h5></blockquote>
+                <p>The user can select the genome folder of the patient and the gene list and length of chromosomes. Then he can operate the patient's data stored inside genome. </p>
+                <img class="responsive-img" src="gifs/new_patient_entry.gif">
+                <p>The page will be updated by showing the data stored inside patient's genome.</p>
+              </div>
+            </div>
+            <div class="divider"></div>
+
+          <div id="view_files" class="section scrollspy">
+              <div class="section">
+                <blockquote><h5>Viewing files</h5></blockquote>
+                <p>The user can view any file stored inside genome</p>
+                <img class="responsive-img" src="gifs/view.gif">
+                <p>The page will be updated by viewing the file in desktop's default viewer for that filetype.</p>
+              </div>
+            </div>
+            <div class="divider"></div>
+
+          <div id="insert_dicom_files" class="section scrollspy">
+              <div class="section">
+                <blockquote><h5>Inserting DICOM Files</h5></blockquote>
+                <p>The user can insert any dicom file from his desktop in the genome sequence of the patient. </p>
+                <img class="responsive-img" src="gifs/insert_dicoms.gif">
+                <p>The page will be updated by inserting the selected dicom files in the genome and viewing them in the listbox.</p>
+              </div>
+            </div>
+            <div class="divider"></div>
+
+          <div id="insert_non_dicom_files" class="section scrollspy">
+            <div class="section">
+              <blockquote><h5>Inserting non-DICOM Files</h5></blockquote>
+              <p>The user can insert any non-DICOM file from his desktop in the genome sequence of the patient.</p>
+              <img class="responsive-img" src="gifs/insert_non_dicoms.gif">
+              <p>The page will be updated by inserting the selected non-DICOM files in the genome and viewing them in the listbox.</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <div id="delete" class="section scrollspy">
+              <div class="section">
+                <blockquote><h5>Deleting files from genome</h5></blockquote>
+                <p>The user can select multiple files (both DICOM and non-DICOM) and delete them from genome sequence of the patient.</p>
+                <img class="responsive-img" src="gifs/delete.gif">
+                <p>The page will be updated by deleting the selected files in the genome and removing them from the listbox.</p>
+              </div>
+            </div>
+            <div class="divider"></div>
+
+          <div id="save" class="section scrollspy">
+            <div class="section">
+              <blockquote><h5>Saving files from genome sequence.</h5></blockquote>
+              <p>The user can save files one at a time from patient's genome sequence to desktop.</p>
+              <img class="responsive-img" src="gifs/save.gif">
+              <p>The page will be updated by saving the selected files from the genome in desktop and showing them in the desired location.</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+            
+
+        </div>
+
+
+        <div class="col hide-on-small-only m3 l2">
+          <ul class="section table-of-contents">
+            <li><a href="#input_files">Input Files Description</a></li>
+            <li><a href="#new_patient_entry">Entering new patient details</a></li>
+            <li><a href="#view_files">Viewing files</a></li>
+            <li><a href="#insert_dicom_files">Inserting DICOM Files</a></li>
+            <li><a href="#insert_non_dicom_files">Inserting non-DICOM Files</a></li>
+            <li><a href="#delete">Deleting files from genome</a></li>
+            <li><a href="#save">Saving files from genome sequence.</a></li>
+         
+          </ul>
+        </div>
+      </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>    
+    
+   <script>       
+        function fixmetotop() {
+          var fixmeTop = $('.table-of-contents').offset().top;
+          $(window).scroll(function() {
+            //aktuelle Scrollposition auslesen
+            var currentScroll = $(window).scrollTop(),
+            //+1em rechnen
+            currentScroll = currentScroll + 15,
+            actualBottom = $('#bodybox').offset().top + $('#bodybox').outerHeight(true),
+            heightSideNav = $('.table-of-contents').outerHeight(true);
+            if (currentScroll >= fixmeTop && currentScroll <= actualBottom - heightSideNav) {
+              //CSS für fixed setzen
+              $('.table-of-contents').css({
+                position: 'fixed',
+                top: '0',
+                bottom: ''
+              });
+            } else {
+              if(currentScroll >= actualBottom - heightSideNav) {
+                $('.table-of-contents').css({
+                  position: 'fixed',
+                  bottom: '0',
+                  top: ''
+                });
+              } else {
+                //CSS für nicht fixed setzen
+                $('.table-of-contents').css({
+                  position: 'static',
+                  bottom: '',
+                  top: ''
+                });
+              }
+            }
+          });
+        }
+        $(document).ready(function () {
+          var fillLorepIpsum = function () {
+            for (var i = 0; i < 1000; i++) {
+              $("#loremIpsum1").append("content1 ");
+              $("#loremIpsum2").append("content2 ");
+              $("#loremIpsum3").append("content3 ");
+            }
+          }
+          fillLorepIpsum();
+          fixmetotop();
+          $('.scrollspy').scrollSpy();
+        });
+   </script>
+
+</body>
+</html>
