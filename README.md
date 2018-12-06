@@ -51,4 +51,4 @@ You can download Chromosome files from following link: [Drive link](https://driv
 
 
 ## Tutorial 
-A comprehensive step by step tutorial can be found [here](https://jakariamd.github.io/eMed-DNA/)
+A comprehensive step by step tutorial can be found [here.](https://jakariamd.github.io/eMed-DNA/)
