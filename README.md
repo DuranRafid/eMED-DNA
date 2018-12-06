@@ -47,8 +47,10 @@ C. Mac
 
 
 ## Chromosome Set
-You can download Chromosome files from following link: [Drive link](https://drive.google.com/open?id=1wSoMo0tgrqCKAH21L2vvTv72PTE9SmyV)
+You can download Chromosome files from following link: [Drive link.](https://drive.google.com/open?id=1wSoMo0tgrqCKAH21L2vvTv72PTE9SmyV)
 
+## Download Software 
+eMed-DNA software can be found in the following link: [Drive link.](https://drive.google.com/drive/folders/1gT55X1rMFGIWAySb2ZIzzRwsAujVF14O?usp=sharing)
 
 ## Tutorial 
 A comprehensive step by step tutorial can be found [here.](https://jakariamd.github.io/eMed-DNA/)
