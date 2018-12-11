@@ -18,7 +18,7 @@
 
     <nav>
         <div class="nav-wrapper cyan lighten-1">
-            <a href="#" class="brand-logo center">eMed-DNA Tutorial</a>            
+            <a href="#" class="brand-logo center">eMed-DNA Software Tutorial</a>            
         </div>
     </nav>
     
@@ -29,23 +29,35 @@
               <div class="section">
                 <blockquote><h5>Input Files Description</h5></blockquote>
                 <p>The user will need to provide this three files as input.</p>
-                <!--<img class="responsive-img" src="gifs/input_files.gif">-->
-                 <video width="90%" height="70%" controls>
-                    <source src="videos/input.mp4" type="video/mp4">
-                  </video> 
+                <img class="responsive-img" src="gifs/input_files.gif">
                 <p>The Homo_sapiens genome folder contains DNA sequence of 24 chromosomes of human body in FASTA format. 'X' and 'Y' chromosomes are marked as 23rd and 24th chromosome respectively. The lengths of all chromosomes are in chrome_length.txt file. Chromosome number, start and end positions of genes in genome sequence are in gene_list.txt file.</p>
               </div>
             </div>
             <div class="divider"></div>
 
+            
+             <div id="default_entry" class="section scrollspy">
+              <div class="section">
+                <blockquote><h5>Using Default Entries</h5></blockquote>
+                <p><div id="new_patient_entry" class="section scrollspy">
+              <div class="section">
+                <blockquote><h5>Entering new patient details</h5></blockquote>
+                <p>In order to make it easy to explore and learn how to use eMED-DNA without having to provide a new patient's genome sequence, our software comes with a default genome sequence (obtained from ENSEMBL) which a user can use by selecting the button -- "use default genome". Please see the screen video below </p>
+                <!---img class="responsive-img" src="gifs/new_patient_entry.gif"-->
+                <video width="90%" height="70%" controls>
+                    <source src="videos/Default.mp4" type="video/mp4">
+                  </video> 
+                <p>The page will be updated by showing the data stored inside default genome.</p>
+              </div>
+            </div>
+                  
+            <div class="divider"></div> </p>
+                 
           <div id="new_patient_entry" class="section scrollspy">
               <div class="section">
                 <blockquote><h5>Entering new patient details</h5></blockquote>
                 <p>The user can select the genome folder of the patient and the gene list and length of chromosomes. Then he can operate the patient's data stored inside genome. </p>
-                <!---img class="responsive-img" src="gifs/new_patient_entry.gif"-->
-                <video width="90%" height="70%" controls>
-                    <source src="videos/newpatient.mp4" type="video/mp4">
-                  </video> 
+                <img class="responsive-img" src="gifs/new_patient_entry.gif">
                 <p>The page will be updated by showing the data stored inside patient's genome.</p>
               </div>
             </div>
@@ -55,10 +67,7 @@
               <div class="section">
                 <blockquote><h5>Viewing files</h5></blockquote>
                 <p>The user can view any file stored inside genome</p>
-                <!--img class="responsive-img" src="gifs/view.gif"-->
-                <video width="90%" height="70%" controls>
-                    <source src="videos/view.mp4" type="video/mp4">
-                  </video> 
+                <img class="responsive-img" src="gifs/view.gif">
                 <p>The page will be updated by viewing the file in desktop's default viewer for that filetype.</p>
               </div>
             </div>
@@ -68,10 +77,7 @@
               <div class="section">
                 <blockquote><h5>Inserting DICOM Files</h5></blockquote>
                 <p>The user can insert any dicom file from his desktop in the genome sequence of the patient. </p>
-                <!--img class="responsive-img" src="gifs/insert_dicoms.gif"-->
-                <video width="90%" height="70%" controls>
-                    <source src="videos/insetdicom.mp4" type="video/mp4">
-                  </video> 
+                <img class="responsive-img" src="gifs/insert_dicoms.gif">
                 <p>The page will be updated by inserting the selected dicom files in the genome and viewing them in the listbox.</p>
               </div>
             </div>
@@ -81,10 +87,7 @@
             <div class="section">
               <blockquote><h5>Inserting non-DICOM Files</h5></blockquote>
               <p>The user can insert any non-DICOM file from his desktop in the genome sequence of the patient.</p>
-              <!--img class="responsive-img" src="gifs/insert_non_dicoms.gif"-->
-              <video width="90%" height="70%" controls>
-                    <source src="videos/insetnondicom.mp4" type="video/mp4">
-                  </video>
+              <img class="responsive-img" src="gifs/insert_non_dicoms.gif">
               <p>The page will be updated by inserting the selected non-DICOM files in the genome and viewing them in the listbox.</p>
             </div>
           </div>
@@ -94,10 +97,7 @@
               <div class="section">
                 <blockquote><h5>Deleting files from genome</h5></blockquote>
                 <p>The user can select multiple files (both DICOM and non-DICOM) and delete them from genome sequence of the patient.</p>
-                <!--img class="responsive-img" src="gifs/delete.gif"-->
-                <video width="90%" height="70%" controls>
-                    <source src="videos/delete.mp4" type="video/mp4">
-                  </video>
+                <img class="responsive-img" src="gifs/delete.gif">
                 <p>The page will be updated by deleting the selected files in the genome and removing them from the listbox.</p>
               </div>
             </div>
@@ -107,10 +107,7 @@
             <div class="section">
               <blockquote><h5>Saving files from genome sequence.</h5></blockquote>
               <p>The user can save files one at a time from patient's genome sequence to desktop.</p>
-              <!--img class="responsive-img" src="gifs/save.gif"-->
-              <video width="90%" height="70%" controls>
-                    <source src="videos/save.mp4" type="video/mp4">
-                  </video>
+              <img class="responsive-img" src="gifs/save.gif">
               <p>The page will be updated by saving the selected files from the genome in desktop and showing them in the desired location.</p>
             </div>
           </div>
@@ -123,6 +120,7 @@
         <div class="col hide-on-small-only m3 l2">
           <ul class="section table-of-contents">
             <li><a href="#input_files">Input Files Description</a></li>
+            <li><a href="#default_entry">Default Entry</a></li>
             <li><a href="#new_patient_entry">Entering new patient details</a></li>
             <li><a href="#view_files">Viewing files</a></li>
             <li><a href="#insert_dicom_files">Inserting DICOM Files</a></li>
