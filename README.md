@@ -1,5 +1,5 @@
 
-# Background
+## Background
 
 Recent success in DNA storage technologies shows the feasibility and practicality of a complete system for encoding, storing and retrieval of digital data using DNA molecules. Healthcare is moving towards Precision medicine, also known as genomic medicine which emphasizes the need for integrating genomic data and patient’s health records so that medical treatment can be tailored to the specific characteristics of an individual. Various retrospective studies related to personalized medicine will require access to both the DNA sequences
 and medical records of patient. However, there are practical challenges to integrate genomic data into electronic health records (EHRs) like storage issues, security issues and longetivity issues.
@@ -32,34 +32,30 @@ We developed a software implementing our proposed architecture.
 
 A. Windows 
 
-    1. Download the '' file.
-    2. If you dont have any DICOM viewer and GDCM installed on your pc, you need to install them first.
-       You can do it just by double clicking 'installer.bat' file. 
-    3. Then you can run the software by double clicking the 'software.jar' file.
+    1. Download the 'Windows' folder from the link https://goo.gl/KKjeHi. It will be downloaded as a zip file. Unzip and extract all the files in a single folder of your desktop.
+    2. If you dont have any DICOM viewer or GDCM installed on your pc, you need to install them first.
+       You can do it just by double clicking 'installer.bat' file. GDCM and MicroDicom Viewer will be installed in your PC. 
+    3. Then you can run the software by double clicking the 'eMed-DNA_windows.jar' file.
     
  B. Linux
  
-    1. Download the '' file.
-    2. Run the following commands to install GDCM. 
-      - sudo apt-get update
-      - sudo apt-get install python-gdcm
-      - sudo apt install libgdcm-tools
-    3. Give executive permission to the file 'software.jar'.
-      - chmod +x software.jar
-    Then you can run the software by double clicking the 'software.jar' file.
+    1. Download the 'Linux' folder from the link https://goo.gl/KKjeHi. It will be downloaded as a zip file. Unzip and extract all the files in a single folder of your desktop.
+    2. Open Terminal, go to the installation directory and run the following commands to install GDCM and give execute permission to the jar file.
+      - chmod +x script.sh
+      - ./script.sh
+    Then you can run the software by double clicking the 'eMed-DNA_linux.jar' file.
     
 C. Mac
 
-    1. You need to have BREW installed on your mac. 
-    2. The run the following command. 
-       - brew update
-       - brew install python-gdcm
-       - brew install libgdcm-tools
-    3. Then you can run the software by double clicking the 'software.jar' file.
+    1. Download the 'MacOS' folder from the link https://goo.gl/KKjeHi. It will be downloaded as a zip file. Unzip and extract all the files in a single folder of your desktop.
+    2. Open Terminal, go to the installation directory and run the following commands to install brew, GDCM and give execute permission to the jar file. If you already have brew installed, then this sript will update it. 
+      - chmod +x script.sh
+      - ./script.sh
+    3. Then you can run the software by double clicking the 'eMed-DNA_mac.jar' file.
 
 
-## Chromosome Set
-You can download Chromosome files from following link: [Drive link.](https://drive.google.com/open?id=1wSoMo0tgrqCKAH21L2vvTv72PTE9SmyV)
+## Default Files
+You can download full genome sequence, gene lists and choromose lengths (obtained from ENSEMBL) from following link: [Drive link.](https://goo.gl/GjwxAg) They are the default inputs for the software. Place them and the jar file in the same folder. 
 
 ## Download Software 
 eMed-DNA software can be found in the following link: [Drive link.](https://drive.google.com/drive/folders/1gT55X1rMFGIWAySb2ZIzzRwsAujVF14O?usp=sharing)
