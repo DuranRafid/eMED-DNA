@@ -25,13 +25,23 @@
     <div class="row">
         <div class="col offset-s1 s9" id="bodybox">          
 
+            div id="first_look" class="section scrollspy">
+              <div class="section">
+                <blockquote><h5>Home Page</h5></blockquote>
+                <p>This is how our software looks when it is opened first.</p>
+			
+                <img class="responsive-img" src="First_look.png">      
+              </div>
+            </div>
+            <div class="divider"></div>
+            
           <div id="input_files" class="section scrollspy">
               <div class="section">
                 <blockquote><h5>Input Files Description</h5></blockquote>
                 <p>eMED-DNA takes a genome of a patient and store the medical histories of that patient in the genome sequence.
                     It takes three files, namely, a genome folder that contains contains DNA sequence of 24 chromosomes of human body in FASTA format, 
-       a chrome_length.txt file containing the lengths of all chromosomes, a gene_list.txt file that contains chromosome numbers, start and end positions of genes in that chromosome.
-                    The name of the fasta files are in the format "chromosome number.fa". 'X' and 'Y' chromosomes are marked as 23rd and 24th chromosome respectively. We provide a screen video below to help understand the file type and contents.</p>
+                    a <i>chrome_length.txt</i> file containing the lengths of all chromosomes, a <i>gene_list.txt</i> file that contains chromosome numbers, start and end positions of genes in that chromosome.
+                    The name of the fasta files are in the format <i>chromosome number.fa</i>. 'X' and 'Y' chromosomes are marked as 23rd and 24th chromosome respectively. We provide a screen video below to help understand the file type and contents.</p>
                 <!--<img class="responsive-img" src="gifs/input_files.gif">-->
                  <video width="90%" height="70%" controls>
                     <source src="videos/input.mp4" type="video/mp4">
@@ -137,6 +147,7 @@
 
         <div class="col hide-on-small-only m3 l2">
           <ul class="section table-of-contents">
+            <li><a href="#first_look">Home Page</a></li>
             <li><a href="#input_files">Input Files Description</a></li>
             <li><a href="#default_entry">Default Inputs</a></li>
             <li><a href="#new_patient_entry">Entering new patient details</a></li>
