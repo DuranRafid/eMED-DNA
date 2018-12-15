@@ -54,7 +54,7 @@
               <div class="section">
                 <blockquote><h5>Default Entries</h5></blockquote>
                 <p>In order to make it easy to explore and learn how to use eMED-DNA without having to provide a new patient's genome sequence, our software comes with a default genome sequence (obtained from ENSEMBL) which a user can use by selecting the button "Default genome".
-			However, you'll need to place the Default input files from <a href="https://goo.gl/GjwxAg">here</a> in the folder where the jar file is kept first. Please see the screen video below. </p>
+			However, you'll need to place the Default input files from <a href="https://goo.gl/GjwxAg">here</a> in the folder where the jar file of eMED-DNA has been saved. Please see the screen video below. </p>
                 <!---img class="responsive-img" src="gifs/new_patient_entry.gif"-->
                 <video width="90%" height="70%" controls>
                     <source src="videos/Default.mp4" type="video/mp4">
@@ -67,8 +67,8 @@
           <div id="new_patient_entry" class="section scrollspy">
               <div class="section">
                 <blockquote><h5>Entering new patient details</h5></blockquote>
-                <p>The user can select the genome folder of the patient and the gene list and length of chromosomes.
-			Then he can operate the patient's data stored inside genome. However, the input files must follow the suggested format. The genome folder must contain 24 fasta files for 24 chromosomes and the name of the fasta files should be in the format <i>Chromosome number.fa></i>. 'X' and 'Y' chromosome should be named as <i>23.fa</i> and <i>24.fa</i> respectively. <i>genes_list.txt</i> and <i>chromes_length.txt</i> should be in the suggested format too. Please watch the Input Files Description video to fully understand the input formats.</p>
+                <p>In order to use a new patient's genome sequence, one has to enter (as input) the genome folder of the patient (containing the DNA sequences of the chromosomes), the gene list and lengths of the chromosomes.
+			 The input files must follow the suggested format. The genome folder should contain the fasta files for the chromosomes and the names of the fasta files should be in the format <i><Chromosome number>.fa></i>, where <i><Chromosome number></i> ranges over {1,2, ..., 24}. 'X' and 'Y' chromosome should be named as <i>23.fa</i> and <i>24.fa</i>, respectively. <i>genes_list.txt</i> and <i>chromes_length.txt</i> should be in a particular format as well (please see the default genome folder for the suggested format). Please watch the Input Files Description video (make it a link) to fully understand the input formats. The screen video shown below demonstrates how to enter these inputs.</p>
                 <!---img class="responsive-img" src="gifs/new_patient_entry.gif"-->
                 <video width="90%" height="70%" controls>
                     <source src="videos/newpatient.mp4" type="video/mp4">
@@ -81,7 +81,7 @@
           <div id="view_files" class="section scrollspy">
               <div class="section">
                 <blockquote><h5>Viewing files</h5></blockquote>
-                <p>The user can view any file stored inside genome</p>
+                <p>eMED-DNA will show a list of files that have been already stored in the selected genome. The user can select and view any file from this list. See the video shown below.</p>
                 <!--img class="responsive-img" src="gifs/view.gif"-->
                 <video width="90%" height="70%" controls>
                     <source src="videos/view.mp4" type="video/mp4">
@@ -94,7 +94,7 @@
           <div id="insert_dicom_files" class="section scrollspy">
               <div class="section">
                 <blockquote><h5>Inserting DICOM Files</h5></blockquote>
-                <p>The user can insert any dicom file from his desktop in the genome sequence of the patient. </p>
+                <p>The user can insert dicom files from his machine into the genome sequence of a patient. The screen video shown below demonstrates how to insert a DICOM file. </p>
                 <!--img class="responsive-img" src="gifs/insert_dicoms.gif"-->
                 <video width="90%" height="70%" controls>
                     <source src="videos/insetdicom.mp4" type="video/mp4">
@@ -107,7 +107,7 @@
           <div id="insert_non_dicom_files" class="section scrollspy">
             <div class="section">
               <blockquote><h5>Inserting non-DICOM Files</h5></blockquote>
-              <p>The user can insert any non-DICOM file from his desktop in the genome sequence of the patient.</p>
+              <p>The user can insert non-DICOM files into the genome sequence of a patient as shown below.</p>
               <!--img class="responsive-img" src="gifs/insert_non_dicoms.gif"-->
               <video width="90%" height="70%" controls>
                     <source src="videos/insetnondicom.mp4" type="video/mp4">
@@ -120,7 +120,7 @@
           <div id="delete" class="section scrollspy">
               <div class="section">
                 <blockquote><h5>Deleting files from genome</h5></blockquote>
-                <p>The user can select multiple files (both DICOM and non-DICOM) and delete them from genome sequence of the patient.</p>
+                <p>The user can select multiple files (both DICOM and non-DICOM) and delete them from the genome sequence of the patient.</p>
                 <!--img class="responsive-img" src="gifs/delete.gif"-->
                 <video width="90%" height="70%" controls>
                     <source src="videos/delete.mp4" type="video/mp4">
@@ -133,7 +133,7 @@
           <div id="save" class="section scrollspy">
             <div class="section">
               <blockquote><h5>Saving files from genome sequence.</h5></blockquote>
-              <p>The user can save files one at a time from patient's genome sequence to desktop.</p>
+              <p>The user can save EHR files (one at a time) from patient's genome sequence to his machine as shown below.</p>
               <!--img class="responsive-img" src="gifs/save.gif"-->
               <video width="90%" height="70%" controls>
                     <source src="videos/save.mp4" type="video/mp4">
