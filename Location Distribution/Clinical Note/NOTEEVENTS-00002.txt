@@ -1,0 +1,54 @@
+SUBJECT_ID,HADM_ID,ICUSTAY_ID,ELEMID,CHARTTIME,REALTIME,CGID,CORRECTION,CUID,CATEGORY,TITLE,TEXT,EXAM_NAME,PATIENT_INFO
+2,25967,,,2806-06-15 00:00:00 EST,,,,,"DISCHARGE_SUMMARY",,"
+
+",,
+2,25967,3,0,2806-06-15 21:51:00 EST,2806-06-15 22:12:00 EST,4615,"N",75,"Nursing/Other","Neonatology Attending Triage Note","
+Neonatology Attending Triage Note
+
+Baby [**Name (NI) 1**] [**Known patient lastname 2**] is a term male infant admitted to the NICU for sepsis evaluation.  Asked to evaluate baby by Dr. [**First Name4 (NamePattern1) 3**] [**Last Name (NamePattern1) 4**].  
+
+Mother is 34 years old G1 P0-1.
+PNS:  A pos, Ab neg, HBSAg neg, RPR NR, RI, GBS neg.
+Pregnancy was uncomplicated.
+Delivery was by C-section after failure to progress.  Apgars 9,9.
+Mother was treated with antibiotics because of maternal temp of 100.3 just prior to delivery.  Mother's temp was then lower but at 2 hours rose again to 102.  
+
+PE - Baby is [**Name2 (NI) 5**] and vigorous, AGA.
+VS -  T 98.5 HR 145 RR 38 BP 72/35 48, O2 sat 100% in RA
+HEENT - AF soft and flat, some molding noted.
+Palate intact.
+Resp - breath sounds clear and equal.
+CVS - S1 S2 normal, [**2-14**] high pitched systolic murmur at LSB
+Abd - soft with normal bowel sounds, no organomegaly
+GU - normal male with testes descended bilaterally
+Neuro - tone wnl, symmetrical exam
+
+DS - 72
+
+Assessment/plan:
+Term male infant with increased risk of sepsis.  
+Will check cbc diff and plats, blood culture.
+Will cover with antibiotics for at least 48 hours pending results of cultures.
+Further work up with possible LP if culture is positive or clinical signs of sepsis develop.
+
+ 
+
+",,
+2,25967,3,0,2806-06-15 22:08:00 EST,2806-06-15 22:18:00 EST,6614,"N",75,"Nursing/Other","Nursing Transfer note","
+Nursing Transfer note
+
+
+Pt admitted to NICU for sepsis eval. Please see Attending
+note for details regarding maternal history and delivery
+details.
+
+Infant stable in RA. RR 30-40's, sats 96-100%. LS clear/=.
+No retractions noted. HR 140's. No murmur. Infant pink, well
+perfused. BW 3865g. CBC and BC sent, pending at this time.
+Infant on 48 r/o sepsis with abx Amp and Gent. PIV placed in
+Left hand, meds administered as ordered. D Stick 72. Infant
+stable for transfer to NBN. Continue to monitor for s/s of
+sepsis. 
+
+
+",,

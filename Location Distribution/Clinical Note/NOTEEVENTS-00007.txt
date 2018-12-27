@@ -1,0 +1,23 @@
+SUBJECT_ID,HADM_ID,ICUSTAY_ID,ELEMID,CHARTTIME,REALTIME,CGID,CORRECTION,CUID,CATEGORY,TITLE,TEXT,EXAM_NAME,PATIENT_INFO
+7,19664,,,2666-06-22 00:00:00 EST,,,,,"DISCHARGE_SUMMARY",,"
+
+",,
+7,19664,8,0,2666-06-24 02:53:00 EST,2666-06-24 02:59:00 EST,4612,"N",75,"Nursing/Other","Neonatology","
+Neonatology
+Patient is now 36 h old term infant sent to NICU for eval of sepsis because of epiosde of tachypnea witrh feeds in NN.
+
+Patient is 3.875 kg product of term gestation born by c-section for NRHFT on Friday afternoon. Prenatal screens unremarkable. GBS-. Maternal temp to 100.8 during labor. Did well in DR [**Last Name (STitle) 9**] [**Name (STitle) 10**] 7,9.
+
+IN NN has been asymptomatic. BReastfeeding well. Episode of tachypnea to 80s this mrorning. Sent to NICU for [**Doctor First Name 11**].l
+
+On exam pink active non-dysmorphic infant. Well perfused , 100% sturated in RA. Skin w/o lesions. Lungs clear. Cor nl s1s2 w/o mrumurs. Abdomen benign. Neuro non-focal and age appropriate.
+
+A_ Well apeparing term infant with one peripartum sepsis risk factor and episode of tachypnea.
+P CBC diff BC.
+  Monitor in NICU til CXBC returns.
+ If cbc normal and patient remains asx here will return to NN for further care and monitoring.
+",,
+7,19664,8,0,2666-06-24 05:23:00 EST,2666-06-24 05:25:00 EST,5137,"N",75,"Nursing/Other","NPN Septic evaluation","
+NPN Septic evaluation
+Infant was brought from NBN for evaluation of RR and septic work up. [**Name8 (MD) 7**] MD note for details. Tags checked with NBN and report given. Infant placed on warmer and exam done and normal.  Infant infant stable in RA. RR, HR and BP stable. Examined by MD [**First Name (Titles) 12**] [**Last Name (Titles) 13**]. CBC and Bld cx sent. DS 65. CBC normal, bld cx pending. Ordered to send to NBN. Will check tags and give report. 
+",,
