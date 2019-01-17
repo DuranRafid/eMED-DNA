@@ -32,7 +32,7 @@ A. Windows
     1. Download the 'Windows' folder from: https://goo.gl/KKjeHi. Unzip and extract all the files in a single folder.
     2. If you do not have any DICOM viewer or GDCM (Grassroots DICOM) installed in your computer, you need to install them first.
        You can do it just by double clicking 'installer.bat' file.
-    3. Finally, you can run the 'eMed-DNA_windows.jar' file (simply by double clicking on it).
+    3. Finally, run the 'eMed-DNA_windows.jar' file (simply by double clicking on it).
     
  B. Linux
  
@@ -48,7 +48,7 @@ C. Mac
     2. Open the terminal, cd (change directory) to the installation directory and run the following commands to install brew, GDCM and give execute permission to the jar file. If you already have brew installed in your computer, then this sript will just update the existing one. 
       - chmod +x script.sh
       - ./script.sh
-    3. Finally, you can run the 'eMed-DNA_mac.jar' file.
+    3. Finally, run the 'eMed-DNA_mac.jar' file.
 
 
 ## Default Files
