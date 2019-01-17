@@ -53,13 +53,13 @@
             <div id="default_entry" class="section scrollspy">
               <div class="section">
                 <blockquote><h5>Default Entries</h5></blockquote>
-                <p>In order to make it easy to explore and learn how to use eMED-DNA without having to provide a new patient's genome sequence, our software comes with a default genome sequence (obtained from ENSEMBL) which a user can use by selecting the button "Default genome".
-			However, you'll need to place the Default input files from <a href="https://goo.gl/GjwxAg">here</a> in the folder where the jar file of eMED-DNA has been saved. Please see the screen video below. </p>
+                <p>In order to make it easy to explore and learn how to use eMED-DNA without having to provide a new patient's genome sequence, eMED-DNA comes with a default genome sequence GRCH38 (Genome Reference Consortium Human Build 38) obtained from ENSEMBL. A user can use this default genome sequence by selecting the button "Default genome".
+			For this default option, users need to save the Default input files (from <a href="https://goo.gl/GjwxAg">here</a>) in the same folder where the jar file of eMED-DNA has been saved. Please see the screen video below. </p>
                 <!---img class="responsive-img" src="gifs/new_patient_entry.gif"-->
                 <video width="90%" height="70%" controls>
                     <source src="videos/Default.mp4" type="video/mp4">
                   </video> 
-                <p>The page will be updated by showing the data stored inside default genome.</p>
+                <!---<p>The page will be updated by showing the data stored inside default genome.</p>-->
               </div>
             </div>
             <div class="divider"></div>
@@ -67,8 +67,8 @@
           <div id="new_patient_entry" class="section scrollspy">
               <div class="section">
                 <blockquote><h5>Entering new patient details</h5></blockquote>
-                <p>In order to use a new patient's genome sequence, one has to enter (as input) the genome folder of the patient (containing the DNA sequences of the chromosomes), the gene list and lengths of the chromosomes.
-			 The input files must follow the suggested format. The genome folder should contain the fasta files for the chromosomes and the names of the fasta files should be in the format <i> &lt Chromosome number &gt.fa</i>, where <i><Chromosome number></i> ranges over {1,2, ..., 24}. 'X' and 'Y' chromosome should be named as <i>23.fa</i> and <i>24.fa</i>, respectively. <i>genes_list.txt</i> and <i>chromes_length.txt</i> should be in a particular format as well (please see the default genome folder for the suggested format). Please watch the <a href="#input_files">Input Files Description video</a> to fully understand the input formats. The screen video shown below demonstrates how to enter these inputs.</p>
+                <p>In order to use a new patient's genome sequence, one has to enter (as input) the three files as described above (<a href="#input_files">Input Files Description</a>).
+			 The input files must follow the suggested format.please see the default genome folder for the suggested format). Please watch the <a href="#input_files">Input Files Description video</a> to fully understand the input formats. The screen video below demonstrates how to enter these inputs.</p>
                 <!---img class="responsive-img" src="gifs/new_patient_entry.gif"-->
                 <video width="90%" height="70%" controls>
                     <source src="videos/newpatient.mp4" type="video/mp4">
