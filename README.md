@@ -52,10 +52,10 @@ C. Mac
 
 
 ## Default Files
-You can download the full genome sequence, gene lists and choromose lengths (obtained from ENSEMBL) from the following link: [Drive link.](https://goo.gl/GjwxAg) They are the default inputs for eMED-DNA. Save these files and the eMED-DNA jar file in the same folder.
+You can download the full genome sequence, gene lists and choromose lengths (obtained from ENSEMBL) from: [Drive link.](https://goo.gl/GjwxAg) These are the default inputs for eMED-DNA. Save these files and the eMED-DNA jar file in the same folder.
 
-## Download Software 
-eMED-DNA software is freely available at: [Drive link.](https://drive.google.com/drive/folders/1gT55X1rMFGIWAySb2ZIzzRwsAujVF14O?usp=sharing)
+<!--## Download Software 
+eMED-DNA software is freely available at: [Drive link.](https://drive.google.com/drive/folders/1gT55X1rMFGIWAySb2ZIzzRwsAujVF14O?usp=sharing)-->
 
 ## Tutorial 
 A comprehensive step by step tutorial can be found [here.](https://jakariamd.github.io/eMed-DNA/)
