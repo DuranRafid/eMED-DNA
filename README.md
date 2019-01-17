@@ -1,21 +1,19 @@
 
 ## Background
 
-Recent success in DNA storage technologies shows the feasibility and practicality of a complete system for encoding, storing and retrieval of digital data using DNA molecules. Healthcare is moving towards Precision medicine, also known as genomic medicine, which emphasizes the need for integrating genomic data and patient’s health records so that medical treatment can be tailored to the specific characteristics of an individual. Various retrospective studies related to personalized medicine will require access to both the DNA sequences and medical records of patient. However, there are practical challenges to integrate genomic data into electronic health records (EHRs) like storage issues, security issues and longetivity issues.
+Recent success in DNA storage technologies shows the feasibility and practicality of a complete system for encoding, storing and retrieval of digital data using DNA molecules. Healthcare is moving towards precision medicine, also known as genomic medicine, which emphasizes the need for integrating genomic data and patient’s health records so that medical treatment can be tailored to the specific characteristics of an individual. Yet, since the dawn of genomic medicine and the exponential rise of sequencing, the full application and power of our genomic revolution has not been fully utilised in clinical medicine. However, there are practical challenges to integrate genomic data into electronic health records (EHRs) like storage issues, security issues and longetivity issues.
 
-## eMed-DNA
+## eMED-DNA
 
-We present eMED-DNA which is a proof-of-concept for archiving medical histories of a person in his DNA sequence. Functions of more than 98% of the human genome are currently unknown and these parts are called non-coding regions. We developed a lossless architecture
-for efficiently storing, managing and retrieving electronic health records (EHRs) within the
-non-coding regions of a patients genome sequence for efficient archival of both EHRs and
-genome sequences. We also proposed an efficient binary to ATCG conversion technique
-which is better than the traditional naive Binary-to-DNA mapping (where two binary bits
-are mapped to one of the four DNA bases). With the recent success in DNA storage system,
+We present eMED-DNA which is a proof-of-concept for archiving medical histories of a person in his DNA sequence. A large genome  regFunctions of more than 98% of the human genome are currently unknown and these parts are called non-coding regions. We developed a lossless architecture
+for efficiently storing, managing and retrieving electronic health records (EHRs) within the regions of a
+patient's genome that have no or little known biological functions or deem not useful for a particular clinical context. This represents the first integrative clinical genomic and EHR operating system.  With the recent success in DNA storage system,
 which is more robust and long-lasting than the typical hardware storage systems, we believe
-our proposed system will open the possibility to store the medical records of an individuals
-entire life in his DNA sequence which may last for many years, and thus will contribute
+eMED-DNA will open the possibility to store the medical records of an individuals
+entire life in his DNA sequence, and thus will contribute
 towards modern research in personalized medicine and future healthcare system in general.
-We developed a software implementing our proposed architecture.
+
+We innovated a number of efficient and sophisticated techniques to implement the proposed operating system. All these techniques are seamlessly combined into an integrated pipeline called eMED-DNA for random and error free EHRs management within a genome sequence. 
 
 
 
