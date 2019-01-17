@@ -13,7 +13,7 @@ eMED-DNA will open the possibility to store the medical records of an individual
 entire life in his DNA sequence, and thus will contribute
 towards modern research in personalized medicine and future healthcare system in general.
 
-We innovated a number of efficient and sophisticated techniques to implement the proposed operating system. All these techniques are seamlessly combined into an integrated pipeline called eMED-DNA for random and error free EHRs management within a genome sequence. 
+We innovated a number of efficient and sophisticated techniques to implement the proposed operating system. All these techniques are seamlessly combined into an integrated pipeline called eMED-DNA for random and error free management of EHRs within a genome sequence. 
 
 
 
@@ -29,26 +29,26 @@ We innovated a number of efficient and sophisticated techniques to implement the
 
 A. Windows 
 
-    1. Download the 'Windows' folder from the link https://goo.gl/KKjeHi. It will be downloaded as a zip file. Unzip and extract all the files in a single folder.
-    2. If you do not have any DICOM viewer or GDCM (Grassroots DICOM) installed in your machine, you need to install them first.
-       You can do it just by double clicking 'installer.bat' file, which will install GDCM and MicroDicom Viewer in your PC. 
-    3. Finally, you can run the software by double clicking the 'eMed-DNA_windows.jar' file.
+    1. Download the 'Windows' folder from: https://goo.gl/KKjeHi. Unzip and extract all the files in a single folder.
+    2. If you do not have any DICOM viewer or GDCM (Grassroots DICOM) installed in your computer, you need to install them first.
+       You can do it just by double clicking 'installer.bat' file.
+    3. Finally, you can run the 'eMed-DNA_windows.jar' file (simply by double clicking on it).
     
  B. Linux
  
-    1. Download the 'Linux' folder from the link https://goo.gl/KKjeHi. It will be downloaded as a zip file. Unzip and extract all the files in a single folder.
+    1. Download the 'Linux' folder from: https://goo.gl/KKjeHi. Unzip and extract all the files in a single folder.
     2. Open the terminal, cd (change directory) to the installation directory and run the following commands to install GDCM and give execute permission to the jar file.
       - chmod +x script.sh
       - ./script.sh
-    3. Finally, you can run the software by double clicking the 'eMed-DNA_linux.jar' file.
+    3. Finally, run the 'eMed-DNA_linux.jar' file.
     
 C. Mac
 
-    1. Download the 'MacOS' folder from the link https://goo.gl/KKjeHi. It will be downloaded as a zip file. Unzip and extract all the files in a single folder.
-    2. Open the terminal, cd (change directory) to the installation directory and run the following commands to install brew, GDCM and give execute permission to the jar file. If you already have brew installed, then this sript will just update it. 
+    1. Download the 'MacOS' folder from: https://goo.gl/KKjeHi. Unzip and extract all the files in a single folder.
+    2. Open the terminal, cd (change directory) to the installation directory and run the following commands to install brew, GDCM and give execute permission to the jar file. If you already have brew installed in your computer, then this sript will just update the existing one. 
       - chmod +x script.sh
       - ./script.sh
-    3. Finally, you can run the software by double clicking the 'eMed-DNA_mac.jar' file.
+    3. Finally, you can run the 'eMed-DNA_mac.jar' file.
 
 
 ## Default Files
