@@ -58,4 +58,4 @@ You can download the full genome sequence, gene lists and choromose lengths (obt
 eMED-DNA software is freely available at: [Drive link.](https://drive.google.com/drive/folders/1gT55X1rMFGIWAySb2ZIzzRwsAujVF14O?usp=sharing)-->
 
 ## Tutorial 
-A comprehensive step by step tutorial can be found [here.](https://jakariamd.github.io/eMed-DNA/)
+A comprehensive step-by-step video tutorial can be found [here.](https://jakariamd.github.io/eMed-DNA/)
