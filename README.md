@@ -5,7 +5,7 @@ Recent success in DNA storage technologies shows the feasibility and practicalit
 
 ## eMED-DNA
 
-We present eMED-DNA which is a proof-of-concept for archiving medical histories of a person in his DNA sequence. A large genome  regFunctions of more than 98% of the human genome are currently unknown and these parts are called non-coding regions. We developed a lossless architecture
+We present eMED-DNA which is a proof-of-concept for archiving medical histories of a person in his DNA sequence. We developed a lossless architecture
 for efficiently storing, managing and retrieving electronic health records (EHRs) within the regions of a
 patient's genome that have no or little known biological functions or deem not useful for a particular clinical context. This represents the first integrative clinical genomic and EHR operating system.  With the recent success in DNA storage system,
 which is more robust and long-lasting than the typical hardware storage systems, we believe
