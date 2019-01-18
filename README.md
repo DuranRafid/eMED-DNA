@@ -29,7 +29,7 @@ We innovated a number of efficient and sophisticated techniques to implement the
 
 A. Windows 
 
-    1. Download the 'Windows' folder from: https://goo.gl/KKjeHi. Unzip and extract all the files in a single folder.
+    1. Download the 'Windows' folder from: [eMED-DNA exe.] (https://goo.gl/KKjeHi). Unzip and extract all the files in a single folder.
     2. If you do not have any DICOM viewer or GDCM (Grassroots DICOM) installed in your computer, you need to install them first.
        You can do it just by double clicking 'installer.bat' file.
     3. Finally, run the 'eMed-DNA_windows.jar' file (simply by double clicking on it).
