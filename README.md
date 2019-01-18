@@ -1,7 +1,7 @@
 
 ## Background
 
-Recent success in DNA storage technologies shows the feasibility and practicality of a complete system for encoding, storing and retrieval of digital data using DNA molecules. Healthcare is moving towards precision medicine, also known as genomic medicine, which emphasizes the need for integrating genomic data and patient’s health records so that medical treatment can be tailored to the specific characteristics of an individual. Yet, since the dawn of genomic medicine and the exponential rise of sequencing, the full application and power of our genomic revolution has not been fully utilised in clinical medicine. However, there are practical challenges to integrate genomic data into electronic health records (EHRs) like storage issues, security issues and longetivity issues.
+Recent success in DNA storage technologies shows the feasibility and practicality of a complete system for encoding, storing and retrieval of digital data using DNA molecules. Healthcare is moving towards precision medicine, also known as genomic medicine, which emphasizes the need for integrating genomic data and patient’s health records so that medical treatment can be tailored to the specific characteristics of an individual. Yet, since the dawn of genomic medicine and the exponential rise of sequencing, the full application and power of our genomic revolution has not been fully utilized in clinical medicine. However, there are practical challenges to integrate genomic data into electronic health records (EHRs) like storage issues, security issues and longetivity issues.
 
 ## eMED-DNA
 
