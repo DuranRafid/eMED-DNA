@@ -52,7 +52,7 @@ C. Mac
 
 
 ## Default Files
-In order to make it easy to explore and learn how to use eMED-DNA, eMED-DNA comes with a default genome sequence GRCH38 (Genome Reference Consortium Human Build 38) obtained from ENSEMBL. Default input files (genome sequence, gene lists and choromose lengths) are available to downloat at [here.](https://goo.gl/GjwxAg)  Save these files and the eMED-DNA jar file in the same folder.
+In order to make it easy to explore and learn how to use eMED-DNA, eMED-DNA comes with a default genome sequence GRCH38 (Genome Reference Consortium Human Build 38) obtained from ENSEMBL. Default input files (genome sequence, gene lists and chromosome lengths) are available to download at [here.](https://goo.gl/GjwxAg)  Save these files and the eMED-DNA jar file in the same folder.
 
 <!--## Download Software 
 eMED-DNA software is freely available at: [Drive link.](https://drive.google.com/drive/folders/1gT55X1rMFGIWAySb2ZIzzRwsAujVF14O?usp=sharing)-->
